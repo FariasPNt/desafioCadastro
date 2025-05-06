@@ -44,4 +44,10 @@ public class SavePet {
             System.err.println("Erro ao salvar o pet: " + e.getMessage());
         }
     }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 6ec14db60a3efe0318d92becbdd109fc4e9c8710
 }
