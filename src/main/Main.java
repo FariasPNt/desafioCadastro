@@ -1,17 +1,13 @@
 package src.main;
 
 import src.model.Pet;
-<<<<<<< HEAD
 import src.service.*;
-
 import java.io.File;
 import java.util.Arrays;
-=======
 import src.service.CreateQuestionnaire;
 import src.service.SavePet;
 
 import java.io.File;
->>>>>>> 6ec14db60a3efe0318d92becbdd109fc4e9c8710
 import java.util.List;
 import java.util.Scanner;
 
@@ -39,7 +35,6 @@ public class Main {
                     SavePet.savingPet(pet);
                     break;
                 case 2:
-<<<<<<< HEAD
                     File file2 = new File("Formulario");
                     List<String> form2 = CreateQuestionnaire.readForm(file2);
                     Pet pet2 = AltPet.changePet(form2);
@@ -58,9 +53,6 @@ public class Main {
                     List<File> listaTexto = SearchPet.searchPets();
                     LeitorArquivo.lendoArquivo(listaTexto);
                     break;
-=======
-
->>>>>>> 6ec14db60a3efe0318d92becbdd109fc4e9c8710
             }
         } while (opcao != 6);
 

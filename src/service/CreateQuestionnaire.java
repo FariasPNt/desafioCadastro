@@ -21,11 +21,7 @@ public class CreateQuestionnaire {
         List<String> perguntas = new ArrayList<>();
         perguntas.add("1 - Qual o nome e sobrenome do pet?");
         perguntas.add("2 - Qual o tipo do pet (Cachorro/Gato)?");
-<<<<<<< HEAD
         perguntas.add("3 - Qual o sexo do animal? (Macho/Femea");
-=======
-        perguntas.add("3 - Qual o sexo do animal?");
->>>>>>> 6ec14db60a3efe0318d92becbdd109fc4e9c8710
         perguntas.add("4 - Qual endereço e bairro que ele foi encontrado?");
         perguntas.add("5 - Qual a idade aproximada do pet?");
         perguntas.add("6 - Qual o peso aproximado do pet?");
@@ -47,13 +43,7 @@ public class CreateQuestionnaire {
         try(BufferedReader br = new BufferedReader(new FileReader(file))){
             String line;
             while((line = br.readLine()) != null){
-<<<<<<< HEAD
                 form.add(line.trim());
-=======
-                if(!line.isBlank()){
-                    form.add(line.trim());
-                }
->>>>>>> 6ec14db60a3efe0318d92becbdd109fc4e9c8710
             }
 
         } catch (IOException e) {
